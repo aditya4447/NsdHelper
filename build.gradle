@@ -1,5 +1,21 @@
 plugins {
     id 'com.android.library'
+    id 'com.github.panpf.bintray-publish'
+}
+
+publish {
+
+    def groupProjectID = 'in.omdev.nsdhelper'
+    def artifactProjectID = 'NsdHelper'
+    def publishVersionID = '1.0'
+
+    userOrg = 'aditya4447'
+    repoName = 'NsdHelper'
+    groupId = groupProjectID
+    artifactId = artifactProjectID
+    publishVersion = publishVersionID
+    desc = 'An android library to regsiter and discover local network services.'
+    website = 'https://github.com/aditya4447/NsdHelper'
 }
 
 android {

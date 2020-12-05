@@ -7,7 +7,7 @@ Android library to regsiter and discover local network services (dns-sd).
 Enter the following line as a dependency in your app-level build.gradle:
 
 ```gradle
-implementation ''
+implementation 'in.omdev.nsdhelper:NsdHelper:1.0'
 ```
 
 ## Usage
