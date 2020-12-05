@@ -1,1 +1,0 @@
-gradlew clean build bintrayUpload -PbintrayUser=aditya4447 -PbintrayKey=47cef103b75e496adc2ad1d6550b1957507dd0e3 -PdryRun=false --stacktrace
