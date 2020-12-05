@@ -1,6 +1,6 @@
 # NsdHelper
 
-Android library to regsiter and discover local network services (dns-sd). 
+Android library to regsiter and discover local network services (dns-sd).
 
 ## Installation
 
@@ -114,6 +114,11 @@ nsdHelper.setErrorListener(new NsdHelper.NsdErrorListener() {
     }
 });
 ```
+
+## More
+
+[Documentation](https://aditya4447.github.io/NsdHelper/)
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

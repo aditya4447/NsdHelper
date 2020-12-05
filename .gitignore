@@ -1,1 +1,3 @@
 /build
+./gitpush.cmd
+./bintray.cmd
